@@ -27,7 +27,7 @@
     "tests/test_packager.py": "5f43faa3d852499b6b2e9b4c5e09004613ec4ff4cd4fc9026baf13be405d627f",
     "tools/APPLE_BUILD.md": "a006ad8dec6a02c397245d8c32cc53ed602a15079e3860285b7f74a637bf6de9",
     "tools/analyze_capture.py": "778dc26790b894cfda8f49438872141d491c446ff60bd1bfa156960952dd8834",
-    "tools/build_framework.py": "0e7ae460a87cf647cf2e94fb07373337d6b1e8a56240a5187e42bec196667f52",
+    "tools/build_framework.py": "a6c76e167ce8a91b7ad50ad61dbabcf6427663c1a48ca41d4c66d66d6370313d",
     "tools/export_tables.py": "5922c4eacaf769268faa3639b9e57e7ca9e65b55ba6b7bd8c123dfd4b616ec70",
     "tools/fetch_base.py": "6b3686c9ea079de75793793b76e358c9f66b4e1f30c2ebb48355ca28573832d4",
     "tools/macho.py": "8dac2ac59a227593a09440ee78a3e782a227b41835868445306f3ae6cd6d2da6",

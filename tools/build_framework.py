@@ -93,7 +93,7 @@ def main():
                      '-dynamiclib', '-Wl,-no_adhoc_codesign', '-install_name', f'@rpath/{FRAMEWORK}.framework/{FRAMEWORK}',
                      '-current_version', VERSION, '-compatibility_version', VERSION,
                      *objects, '-framework', 'UIKit', '-framework', 'Foundation', '-framework', 'QuartzCore',
-                     '-lobjc', '-o', binary])
+                     '-framework', 'CoreGraphics', '-lobjc', '-o', binary])
                 binary.chmod(0o755)
                 metadata = {'CFBundleExecutable': FRAMEWORK, 'CFBundleName': FRAMEWORK,
                             'CFBundleIdentifier': 'com.sdktools.lasercapture', 'CFBundlePackageType': 'FMWK',
