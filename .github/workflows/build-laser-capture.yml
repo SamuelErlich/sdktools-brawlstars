@@ -1,0 +1,137 @@
+name: Build SDKLaserCapture 0.1.0
+
+on:
+  workflow_dispatch:
+    inputs:
+      package_ipa:
+        description: 'Generate the unsigned IPA in addition to the framework'
+        type: boolean
+        required: true
+        default: true
+      base_url:
+        description: 'HTTPS base IPA address; empty uses BASE_IPA_URL secret or the supplied Drive link'
+        type: string
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 45
+    env:
+      BASE_URL: ${{ inputs.base_url || secrets.BASE_IPA_URL }}
+      PYTHONUNBUFFERED: '1'
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Check out source commit
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+
+      - name: Select Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify source manifest and portable tests
+        run: |
+          set -euo pipefail
+          mkdir -p work
+          python3 tools/verify_sources.py 2>&1 | tee work/source-verification.log
+          python3 -m unittest discover -s tests -v 2>&1 | tee work/tests.log
+
+      - name: Compile and validate real Apple framework
+        id: framework
+        run: python3 tools/build_framework.py --output dist
+
+      - name: Archive framework and symbols preserving file modes
+        id: archive
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import zipfile
+          def archive_folder(folder, output):
+              with zipfile.ZipFile(output, 'x', zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
+                  for path in sorted(folder.rglob('*')):
+                      if path.is_symlink():
+                          raise SystemExit('Unexpected output symlink')
+                      if path.is_file():
+                          archive.write(path, path.relative_to(folder.parent).as_posix())
+          archive_folder(Path('dist/SDKLaserCapture.framework'), Path('dist/SDKLaserCapture_v0.1.0_framework.zip'))
+          symbols = Path('dist/SDKLaserCapture.framework.dSYM')
+          if symbols.is_dir():
+              archive_folder(symbols, Path('dist/SDKLaserCapture.framework.dSYM.zip'))
+          PY
+
+      - name: Download and verify the pinned base IPA
+        if: ${{ inputs.package_ipa }}
+        run: python3 tools/fetch_base.py --output work/base.ipa
+
+      - name: Integrate collector and validate resulting IPA
+        id: ipa
+        if: ${{ inputs.package_ipa }}
+        run: |
+          python3 tools/package_ipa.py \
+            --base work/base.ipa \
+            --framework dist/SDKLaserCapture.framework \
+            --output dist/Brawl_Stars_69.414_SDKLaserCapture_v0.1.0_unsigned.ipa
+
+      - name: Export the five verified static CSV tables
+        id: tables
+        if: ${{ inputs.package_ipa }}
+        run: python3 tools/export_tables.py --base work/base.ipa --output dist/Brawl_Stars_69.414_Tabelas.zip
+
+      - name: Upload compiled framework
+        if: ${{ always() && steps.archive.outcome == 'success' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: SDKLaserCapture-v0.1.0-framework-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            dist/SDKLaserCapture_v0.1.0_framework.zip
+            dist/SDKLaserCapture.framework.dSYM.zip
+            dist/buildreport.json
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
+
+      - name: Upload unsigned IPA and changes report
+        if: ${{ always() && steps.ipa.outcome == 'success' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: SDKLaserCapture-v0.1.0-unsigned-IPA-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            dist/*_unsigned.ipa
+            dist/*_unsigned.ipa.report.json
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
+
+      - name: Upload build diagnostics
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: SDKLaserCapture-v0.1.0-diagnostics-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            work/*.log
+            work/build-logs/
+            dist/buildreport.json
+            dist/build.log
+            Validation/
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Upload verified static tables
+        if: ${{ always() && steps.tables.outcome == 'success' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: SDKLaserCapture-v0.1.0-static-tables-${{ github.run_id }}-${{ github.run_attempt }}
+          path: dist/Brawl_Stars_69.414_Tabelas.zip
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
