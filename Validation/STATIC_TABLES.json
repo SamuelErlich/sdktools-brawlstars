@@ -1,0 +1,37 @@
+{
+  "status": "passed_on_actual_base",
+  "base_sha256": "d3229b7e15b28fbcfc8fe784cd466f671252e6ebe3712f5354b9a58ce98bc0d8",
+  "assets": [
+    {
+      "relative_path": "res/csv_logic/characters.csv",
+      "bytes": 387863,
+      "sha256": "034d6e09287cdc5e2f0208ed74177a2bf6280991ae7079ed2bfc7ae9b432cac5",
+      "named_records": 456
+    },
+    {
+      "relative_path": "res/csv_logic/skills.csv",
+      "bytes": 329834,
+      "sha256": "d0eac007e94e9c0849bf2c05de87d100bbc9b3bd09005c402f752811a63e1099",
+      "named_records": 713
+    },
+    {
+      "relative_path": "res/csv_logic/projectiles_logic.csv",
+      "bytes": 252521,
+      "sha256": "896e784ca9869b91e8cab7ce162aab1d3fa08cba618a24652097f6070bdc91e3",
+      "named_records": 759
+    },
+    {
+      "relative_path": "res/csv_logic/locations.csv",
+      "bytes": 138116,
+      "sha256": "8bc110630b88ca44611451ef3c72a68b3a363303d42fef1c6154bd988acc5c3b",
+      "named_records": 1357
+    },
+    {
+      "relative_path": "res/csv_logic/game_mode_variations.csv",
+      "bytes": 64618,
+      "sha256": "ba5a1f297836d77e78be8d2526ed96963e0e4d50afe504f02402470f8a6ced1e",
+      "named_records": 85
+    }
+  ],
+  "device_runtime": false
+}

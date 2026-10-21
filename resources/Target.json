@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "module": {
+    "name": "SDKLaserCapture",
+    "version": "0.1.0",
+    "build": "1",
+    "minimum_os_version": "14.0"
+  },
+  "source": {
+    "drive_file_id": "1MPjR6cm79C_OLsCHtjX0PPXkQ66onpPo",
+    "original_filename": "com.supercell.laser_69.414_und3fined.ipa"
+  },
+  "target": {
+    "ipa_sha256": "d3229b7e15b28fbcfc8fe784cd466f671252e6ebe3712f5354b9a58ce98bc0d8",
+    "ipa_size": 1256288047,
+    "bundle_identifier": "com.supercell.laser",
+    "version": "69.414",
+    "build": "69.414",
+    "executable": "laser",
+    "app_path": "Payload/laser.app",
+    "main_sha256": "19b031a23bae706a93f6f3a89bb1bb40103ceedc5871f90fc8d2d4f624058d52",
+    "main_uuid": "15a0e3e2-2688-43f1-80df-50ce637685bd",
+    "minimum_os_version": "14.0"
+  }
+}

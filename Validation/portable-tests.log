@@ -1,0 +1,55 @@
+test_asset_claim_not_file_proof (test_analyze_capture.CaptureTests.test_asset_claim_not_file_proof) ... ok
+test_complete_contact_not_two_actions (test_analyze_capture.CaptureTests.test_complete_contact_not_two_actions) ... ok
+test_duplicate_json_rejected (test_analyze_capture.CaptureTests.test_duplicate_json_rejected) ... ok
+test_nonfinite_coordinate (test_analyze_capture.CaptureTests.test_nonfinite_coordinate) ... ok
+test_reused_contact (test_analyze_capture.CaptureTests.test_reused_contact) ... ok
+test_snapshot_after_session (test_analyze_capture.CaptureTests.test_snapshot_after_session) ... ok
+test_wrong_build (test_analyze_capture.CaptureTests.test_wrong_build) ... ok
+test_duplicate_columns_rejected (test_export_tables.TablesTests.test_duplicate_columns_rejected) ... ok
+test_path_outside_allowlist_rejected (test_export_tables.TablesTests.test_path_outside_allowlist_rejected) ... ok
+test_preserves_continuation_and_zero (test_export_tables.TablesTests.test_preserves_continuation_and_zero) ... ok
+test_size_limit (test_export_tables.TablesTests.test_size_limit) ... ok
+test_wrong_csv_metadata_rejected (test_export_tables.TablesTests.test_wrong_csv_metadata_rejected) ... ok
+test_wrong_hash_rejected (test_export_tables.TablesTests.test_wrong_hash_rejected) ... ok
+test_actual_captcha_and_login_refused (test_fetch_base.FetchBaseTests.test_actual_captcha_and_login_refused) ... ok
+test_complete_pinned_download_publishes_once (test_fetch_base.FetchBaseTests.test_complete_pinned_download_publishes_once) ... ok
+test_confirmation_foreign_destination_refused (test_fetch_base.FetchBaseTests.test_confirmation_foreign_destination_refused) ... ok
+test_confirmation_size_limit (test_fetch_base.FetchBaseTests.test_confirmation_size_limit) ... ok
+test_confirmation_wrong_file_refused (test_fetch_base.FetchBaseTests.test_confirmation_wrong_file_refused) ... ok
+test_control_characters_refused (test_fetch_base.FetchBaseTests.test_control_characters_refused) ... ok
+test_drive_view_is_normalized (test_fetch_base.FetchBaseTests.test_drive_view_is_normalized) ... ok
+test_existing_destination_is_not_changed (test_fetch_base.FetchBaseTests.test_existing_destination_is_not_changed) ... ok
+test_hash_mismatch_cleans_partial (test_fetch_base.FetchBaseTests.test_hash_mismatch_cleans_partial) ... ok
+test_http_and_credentials_refused (test_fetch_base.FetchBaseTests.test_http_and_credentials_refused) ... ok
+test_invalid_pin_manifest_refused (test_fetch_base.FetchBaseTests.test_invalid_pin_manifest_refused) ... ok
+test_local_copy_preserves_source (test_fetch_base.FetchBaseTests.test_local_copy_preserves_source) ... ok
+test_nonzip_with_correct_hash_refused (test_fetch_base.FetchBaseTests.test_nonzip_with_correct_hash_refused) ... ok
+test_normal_drive_confirmation_accepts_inert_css (test_fetch_base.FetchBaseTests.test_normal_drive_confirmation_accepts_inert_css) ... ok
+test_one_drive_confirmation_then_download (test_fetch_base.FetchBaseTests.test_one_drive_confirmation_then_download) ... ok
+test_partial_http_response_refused (test_fetch_base.FetchBaseTests.test_partial_http_response_refused) ... ok
+test_redirect_to_http_refused (test_fetch_base.FetchBaseTests.test_redirect_to_http_refused) ... ok
+test_repeated_confirmation_refused_without_output (test_fetch_base.FetchBaseTests.test_repeated_confirmation_refused_without_output) ... ok
+test_stream_and_declared_size_caps (test_fetch_base.FetchBaseTests.test_stream_and_declared_size_caps) ... ok
+test_unknown_and_duplicate_confirmation_fields_refused (test_fetch_base.FetchBaseTests.test_unknown_and_duplicate_confirmation_fields_refused) ... ok
+test_case_unicode_and_duplicate_collisions (test_packager.ArchiveGuards.test_case_unicode_and_duplicate_collisions) ... ok
+test_declared_size_limit (test_packager.ArchiveGuards.test_declared_size_limit) ... ok
+test_symlinks_special_files_and_file_parent_conflict (test_packager.ArchiveGuards.test_symlinks_special_files_and_file_parent_conflict) ... ok
+test_traversal_absolute_backslash_and_control (test_packager.ArchiveGuards.test_traversal_absolute_backslash_and_control) ... ok
+test_bad_load_command_size_is_refused (test_packager.BinaryGuards.test_bad_load_command_size_is_refused) ... ok
+test_declared_ranges_cannot_point_into_header (test_packager.BinaryGuards.test_declared_ranges_cannot_point_into_header) ... ok
+test_insufficient_padding_is_refused (test_packager.BinaryGuards.test_insufficient_padding_is_refused) ... ok
+test_nonzero_padding_and_repeat_injection_are_refused (test_packager.BinaryGuards.test_nonzero_padding_and_repeat_injection_are_refused) ... ok
+test_only_header_count_and_new_command_are_modified (test_packager.BinaryGuards.test_only_header_count_and_new_command_are_modified) ... ok
+test_wrong_cpu_platform_encryption_and_fat_are_refused (test_packager.BinaryGuards.test_wrong_cpu_platform_encryption_and_fat_are_refused) ... ok
+test_framework_platform_install_name_and_resource_guards (test_packager.PackageIntegration.test_framework_platform_install_name_and_resource_guards) ... ok
+test_framework_symlink_and_missing_execute_bit (test_packager.PackageIntegration.test_framework_symlink_and_missing_execute_bit) ... ok
+test_inspect_base_exposes_reproducible_preflight (test_packager.PackageIntegration.test_inspect_base_exposes_reproducible_preflight) ... ok
+test_package_preserves_every_unrelated_member_and_original_input (test_packager.PackageIntegration.test_package_preserves_every_unrelated_member_and_original_input) ... ok
+test_refuses_overwrite_without_mutating_existing_file (test_packager.PackageIntegration.test_refuses_overwrite_without_mutating_existing_file) ... ok
+test_report_publication_failure_rolls_back_new_ipa (test_packager.PackageIntegration.test_report_publication_failure_rolls_back_new_ipa) ... ok
+test_wrong_base_hash_fails_before_writing_output (test_packager.PackageIntegration.test_wrong_base_hash_fails_before_writing_output) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 0.036s
+
+OK

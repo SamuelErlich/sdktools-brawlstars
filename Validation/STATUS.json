@@ -1,0 +1,32 @@
+{
+  "project": "SDKLaserCapture",
+  "version": "0.1.0",
+  "date": "2026-10-21",
+  "target": "Brawl Stars 69.414",
+  "source_implemented": true,
+  "portable_tests": {
+    "passed": 50,
+    "failed": 0,
+    "log": "portable-tests.log"
+  },
+  "python_syntax": "passed",
+  "workflow_yaml": "parsed",
+  "build_help": "passed",
+  "base_download": "completed",
+  "base_sha256_and_all_member_crc": "passed_on_1256288047_bytes_37205_members",
+  "header_preflight": "passed_on_actual_base",
+  "static_table_extraction": "five_tables_verified_against_actual_base",
+  "native_ui_capture": "source_reviewed_not_device_tested",
+  "apple_compilation": "not_run",
+  "apple_compilation_reason": "Linux host lacks Xcode and iPhoneOS SDK",
+  "linux_build_exit_code": 2,
+  "linux_build_message": "Build refused: macOS, Xcode and the iPhoneOS SDK are required. No framework was built.",
+  "framework_created": false,
+  "modified_ipa_created": false,
+  "github_actions": "not_run",
+  "signing": "not_run",
+  "installation": "not_run",
+  "device_runtime": "not_run",
+  "autoplay": false,
+  "live_game_state_reader": false
+}

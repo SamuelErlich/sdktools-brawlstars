@@ -1,0 +1,829 @@
+{
+  "inspection": "static_read_only",
+  "identity": {
+    "infoPlist": "Payload/laser.app/Info.plist",
+    "kind": "app",
+    "sha256": "3a182d204e9d5bd9a7aad34352a5065725fa6aa999f616b14713141d39069bd3",
+    "CFBundleIdentifier": "com.supercell.laser",
+    "CFBundleShortVersionString": "69.414",
+    "CFBundleVersion": "69.414",
+    "CFBundleExecutable": "laser",
+    "MinimumOSVersion": "14.0"
+  },
+  "main_executable": {
+    "path": "Payload/laser.app/laser",
+    "sha256": "19b031a23bae706a93f6f3a89bb1bb40103ceedc5871f90fc8d2d4f624058d52",
+    "bytes": 18499552,
+    "slices": [
+      {
+        "offset": 0,
+        "size": 18499552,
+        "errors": [],
+        "dylibs": [
+          {
+            "type": "load",
+            "path": "@rpath/laserx.framework/laserx",
+            "timestamp": 1,
+            "currentVersion": "0.0.0",
+            "compatibilityVersion": "0.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/CoreMotion.framework/CoreMotion",
+            "timestamp": 2,
+            "currentVersion": "3075.0.8",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/CoreText.framework/CoreText",
+            "timestamp": 2,
+            "currentVersion": "877.4.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/System/Library/Frameworks/AppTrackingTransparency.framework/AppTrackingTransparency",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/WebKit.framework/WebKit",
+            "timestamp": 2,
+            "currentVersion": "624.2.5",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/Foundation.framework/Foundation",
+            "timestamp": 2,
+            "currentVersion": "5026.5.4",
+            "compatibilityVersion": "300.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/GLKit.framework/GLKit",
+            "timestamp": 2,
+            "currentVersion": "129.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/CoreData.framework/CoreData",
+            "timestamp": 2,
+            "currentVersion": "1526.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/MetalKit.framework/MetalKit",
+            "timestamp": 2,
+            "currentVersion": "173.7.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/Metal.framework/Metal",
+            "timestamp": 2,
+            "currentVersion": "373.2.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/StoreKit.framework/StoreKit",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/Photos.framework/Photos",
+            "timestamp": 2,
+            "currentVersion": "852.0.102",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/UserNotifications.framework/UserNotifications",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/AVFoundation.framework/AVFoundation",
+            "timestamp": 2,
+            "currentVersion": "2.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/AdSupport.framework/AdSupport",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony",
+            "timestamp": 2,
+            "currentVersion": "0.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/QuartzCore.framework/QuartzCore",
+            "timestamp": 2,
+            "currentVersion": "1195.14.4",
+            "compatibilityVersion": "1.2.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/Security.framework/Security",
+            "timestamp": 2,
+            "currentVersion": "61901.120.67",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/GameKit.framework/GameKit",
+            "timestamp": 2,
+            "currentVersion": "820.5.18",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/MessageUI.framework/MessageUI",
+            "timestamp": 2,
+            "currentVersion": "3864.255.51",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration",
+            "timestamp": 2,
+            "currentVersion": "1405.120.5",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/OpenAL.framework/OpenAL",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox",
+            "timestamp": 2,
+            "currentVersion": "1000.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/UIKit.framework/UIKit",
+            "timestamp": 2,
+            "currentVersion": "9126.5.5",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+            "timestamp": 2,
+            "currentVersion": "1965.5.1",
+            "compatibilityVersion": "64.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/SafariServices.framework/SafariServices",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/Usercentrics.framework/Usercentrics",
+            "timestamp": 2,
+            "currentVersion": "0.0.0",
+            "compatibilityVersion": "0.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/UsercentricsUI.framework/UsercentricsUI",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/ZendeskSDKMessaging.framework/ZendeskSDKMessaging",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/ZendeskSDK.framework/ZendeskSDK",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/MessagingAPI.framework/MessagingAPI",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/MessagingSDK.framework/MessagingSDK",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/ZendeskSDKAnalyticsKit.framework/ZendeskSDKAnalyticsKit",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/SDKConfigurations.framework/SDKConfigurations",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/ZendeskSDKConversationKit.framework/ZendeskSDKConversationKit",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/ZendeskSDKUIComponents.framework/ZendeskSDKUIComponents",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/ZendeskSDKCoreUtilities.framework/ZendeskSDKCoreUtilities",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/ZendeskSDKFayeClient.framework/ZendeskSDKFayeClient",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/ZendeskSDKStorage.framework/ZendeskSDKStorage",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/ZendeskSDKHTTPClient.framework/ZendeskSDKHTTPClient",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/ZendeskSDKLogger.framework/ZendeskSDKLogger",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/ZendeskSDKSocketClient.framework/ZendeskSDKSocketClient",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/ZendeskSDKGuideKit.framework/ZendeskSDKGuideKit",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/ZendeskCoreSDK.framework/ZendeskCoreSDK",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/SupportSDK.framework/SupportSDK",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/SupportProvidersSDK.framework/SupportProvidersSDK",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/CommonUISDK.framework/CommonUISDK",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/HelpshiftX.framework/HelpshiftX",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/App.framework/App",
+            "timestamp": 2,
+            "currentVersion": "0.0.0",
+            "compatibilityVersion": "0.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/Flutter.framework/Flutter",
+            "timestamp": 2,
+            "currentVersion": "0.0.0",
+            "compatibilityVersion": "0.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/RecaptchaInterop.framework/RecaptchaInterop",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/Scid.framework/Scid",
+            "timestamp": 2,
+            "currentVersion": "1.16.12",
+            "compatibilityVersion": "0.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/SnowplowTracker.framework/SnowplowTracker",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/cupertino_http.framework/cupertino_http",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/flutter_inappwebview_ios.framework/flutter_inappwebview_ios",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/path_provider_foundation.framework/path_provider_foundation",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/scid_plugin.framework/scid_plugin",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/sensors_plus.framework/sensors_plus",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/share_plus.framework/share_plus",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/shared_preferences_foundation.framework/shared_preferences_foundation",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/smart_auth.framework/smart_auth",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/snowplow_tracker.framework/snowplow_tracker",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/social_plugin.framework/social_plugin",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "@rpath/url_launcher_ios.framework/url_launcher_ios",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices",
+            "timestamp": 2,
+            "currentVersion": "624.2.5",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/System/Library/Frameworks/AdServices.framework/AdServices",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/System/Library/Frameworks/iAd.framework/iAd",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/usr/lib/libicucore.A.dylib",
+            "timestamp": 2,
+            "currentVersion": "78.1.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/usr/lib/libsqlite3.dylib",
+            "timestamp": 2,
+            "currentVersion": "382.0.0",
+            "compatibilityVersion": "9.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/usr/lib/libobjc.A.dylib",
+            "timestamp": 2,
+            "currentVersion": "228.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/usr/lib/libc++.1.dylib",
+            "timestamp": 2,
+            "currentVersion": "2100.43.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/usr/lib/libSystem.B.dylib",
+            "timestamp": 2,
+            "currentVersion": "1356.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/CFNetwork.framework/CFNetwork",
+            "timestamp": 2,
+            "currentVersion": "3860.255.12",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+            "timestamp": 2,
+            "currentVersion": "5026.5.4",
+            "compatibilityVersion": "150.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/CoreMedia.framework/CoreMedia",
+            "timestamp": 2,
+            "currentVersion": "3320.8.1",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/CoreVideo.framework/CoreVideo",
+            "timestamp": 2,
+            "currentVersion": "734.4.0",
+            "compatibilityVersion": "1.2.0"
+          },
+          {
+            "type": "weak",
+            "path": "/System/Library/Frameworks/DeclaredAgeRange.framework/DeclaredAgeRange",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/System/Library/Frameworks/FileProvider.framework/FileProvider",
+            "timestamp": 2,
+            "currentVersion": "4018.120.24",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/MetricKit.framework/MetricKit",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/System/Library/Frameworks/PDFKit.framework/PDFKit",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftAVFoundation.dylib",
+            "timestamp": 2,
+            "currentVersion": "2420.7.1",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/usr/lib/swift/libswiftCore.dylib",
+            "timestamp": 2,
+            "currentVersion": "0.0.0",
+            "compatibilityVersion": "0.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftCoreAudio.dylib",
+            "timestamp": 2,
+            "currentVersion": "411.255.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftCoreFoundation.dylib",
+            "timestamp": 2,
+            "currentVersion": "120.100.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftCoreImage.dylib",
+            "timestamp": 2,
+            "currentVersion": "2.2.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftCoreLocation.dylib",
+            "timestamp": 2,
+            "currentVersion": "53.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftCoreMIDI.dylib",
+            "timestamp": 2,
+            "currentVersion": "6.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftCoreMedia.dylib",
+            "timestamp": 2,
+            "currentVersion": "3320.8.1",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftDarwin.dylib",
+            "timestamp": 2,
+            "currentVersion": "377.120.8",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftDataDetection.dylib",
+            "timestamp": 2,
+            "currentVersion": "821.7.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/usr/lib/swift/libswiftDispatch.dylib",
+            "timestamp": 2,
+            "currentVersion": "1542.100.32",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftMetal.dylib",
+            "timestamp": 2,
+            "currentVersion": "373.2.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftOSLog.dylib",
+            "timestamp": 2,
+            "currentVersion": "10.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/usr/lib/swift/libswiftObjectiveC.dylib",
+            "timestamp": 2,
+            "currentVersion": "951.7.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftQuartzCore.dylib",
+            "timestamp": 2,
+            "currentVersion": "5.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftSpatial.dylib",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+            "timestamp": 2,
+            "currentVersion": "879.5.1",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftXPC.dylib",
+            "timestamp": 2,
+            "currentVersion": "128.120.2",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftos.dylib",
+            "timestamp": 2,
+            "currentVersion": "1082.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/usr/lib/swift/libswiftsimd.dylib",
+            "timestamp": 2,
+            "currentVersion": "23.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "@rpath/libswift_Concurrency.dylib",
+            "timestamp": 2,
+            "currentVersion": "0.0.0",
+            "compatibilityVersion": "0.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/usr/lib/swift/libswiftFoundation.dylib",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/usr/lib/swift/libswiftCoreGraphics.dylib",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/usr/lib/swift/libswiftNetwork.dylib",
+            "timestamp": 2,
+            "currentVersion": "5812.122.1",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "load",
+            "path": "/usr/lib/swift/libswiftUIKit.dylib",
+            "timestamp": 2,
+            "currentVersion": "1.0.0",
+            "compatibilityVersion": "1.0.0"
+          },
+          {
+            "type": "weak",
+            "path": "/System/Library/Frameworks/SwiftUI.framework/SwiftUI",
+            "timestamp": 2,
+            "currentVersion": "7.5.3",
+            "compatibilityVersion": "1.0.0"
+          }
+        ],
+        "rpaths": [
+          "/usr/lib/swift",
+          "@executable_path/Frameworks"
+        ],
+        "encryption": [
+          {
+            "command": "LC_ENCRYPTION_INFO_64",
+            "cryptid": 0,
+            "offset": 16384,
+            "size": 16171008,
+            "rangeWithinSlice": true
+          }
+        ],
+        "platforms": [
+          {
+            "command": "LC_BUILD_VERSION",
+            "id": 2,
+            "name": "iOS",
+            "minimumOS": "14.0.0",
+            "sdk": "26.5.0"
+          }
+        ],
+        "codeSignatures": [
+          {
+            "offset": 18021760,
+            "size": 477792,
+            "rangeWithinSlice": true,
+            "validity": "not_checked"
+          }
+        ],
+        "uuids": [
+          "15a0e3e2-2688-43f1-80df-50ce637685bd"
+        ],
+        "bits": 64,
+        "endian": "little",
+        "cpuType": 16777228,
+        "cpuName": "arm64",
+        "cpuSubtype": 0,
+        "fileType": 2,
+        "flags": 10551429,
+        "loadCommandCount": 129,
+        "loadCommandBytes": 14056,
+        "codeSignaturePresent": true,
+        "parsedCompletely": true
+      }
+    ],
+    "errors": [],
+    "format": "thin"
+  },
+  "zip_entries": 37205,
+  "uncompressed_bytes": 1837661513,
+  "entry_budget": 50000,
+  "initial_default_budget": 20000,
+  "initial_budget_result": "37,205 entries exceed default; bounded inventory rerun with 50,000 entries without changing skill source",
+  "scope": "metadata and selected resources; no target code executed",
+  "tools": "Python stdlib and ios-ipa-framework-reverse inspect_ipa.py; REA engine not connected"
+}

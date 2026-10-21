@@ -1,0 +1,11 @@
+{
+  "fresh_extraction_manifest": "passed",
+  "fresh_extraction_portable_tests": {
+    "passed": 50,
+    "failed": 0
+  },
+  "zip_crc": "passed",
+  "workflow_copy": "identical",
+  "native_build": "not_run",
+  "note": "Validation metadata added after fresh-copy test; source code unchanged."
+}

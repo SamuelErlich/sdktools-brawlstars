@@ -1,0 +1,1044 @@
+{
+  "schema_version": 1,
+  "target": {
+    "ipa_sha256": "d3229b7e15b28fbcfc8fe784cd466f671252e6ebe3712f5354b9a58ce98bc0d8",
+    "ipa_size": 1256288047,
+    "bundle_identifier": "com.supercell.laser",
+    "version": "69.414",
+    "build": "69.414",
+    "executable": "laser",
+    "app_path": "Payload/laser.app",
+    "main_sha256": "19b031a23bae706a93f6f3a89bb1bb40103ceedc5871f90fc8d2d4f624058d52",
+    "main_uuid": "15a0e3e2-2688-43f1-80df-50ce637685bd",
+    "minimum_os_version": "14.0"
+  },
+  "macho": {
+    "architecture": "arm64",
+    "cpu_subtype": 0,
+    "file_type": 2,
+    "ncmds": 129,
+    "sizeofcmds": 14056,
+    "header_end": 14088,
+    "uuid": "15a0e3e2-2688-43f1-80df-50ce637685bd",
+    "dependencies": [
+      {
+        "command": 12,
+        "name": "@rpath/laserx.framework/laserx"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/CoreMotion.framework/CoreMotion"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/CoreText.framework/CoreText"
+      },
+      {
+        "command": 2147483672,
+        "name": "/System/Library/Frameworks/AppTrackingTransparency.framework/AppTrackingTransparency"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/WebKit.framework/WebKit"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/Foundation.framework/Foundation"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/GLKit.framework/GLKit"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/CoreData.framework/CoreData"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/MetalKit.framework/MetalKit"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/Metal.framework/Metal"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/StoreKit.framework/StoreKit"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/Photos.framework/Photos"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/UserNotifications.framework/UserNotifications"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/AVFoundation.framework/AVFoundation"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/AdSupport.framework/AdSupport"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/QuartzCore.framework/QuartzCore"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/Security.framework/Security"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/GameKit.framework/GameKit"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/MessageUI.framework/MessageUI"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/OpenAL.framework/OpenAL"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/UIKit.framework/UIKit"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/SafariServices.framework/SafariServices"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/Usercentrics.framework/Usercentrics"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/UsercentricsUI.framework/UsercentricsUI"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/ZendeskSDKMessaging.framework/ZendeskSDKMessaging"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/ZendeskSDK.framework/ZendeskSDK"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/MessagingAPI.framework/MessagingAPI"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/MessagingSDK.framework/MessagingSDK"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/ZendeskSDKAnalyticsKit.framework/ZendeskSDKAnalyticsKit"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/SDKConfigurations.framework/SDKConfigurations"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/ZendeskSDKConversationKit.framework/ZendeskSDKConversationKit"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/ZendeskSDKUIComponents.framework/ZendeskSDKUIComponents"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/ZendeskSDKCoreUtilities.framework/ZendeskSDKCoreUtilities"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/ZendeskSDKFayeClient.framework/ZendeskSDKFayeClient"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/ZendeskSDKStorage.framework/ZendeskSDKStorage"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/ZendeskSDKHTTPClient.framework/ZendeskSDKHTTPClient"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/ZendeskSDKLogger.framework/ZendeskSDKLogger"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/ZendeskSDKSocketClient.framework/ZendeskSDKSocketClient"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/ZendeskSDKGuideKit.framework/ZendeskSDKGuideKit"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/ZendeskCoreSDK.framework/ZendeskCoreSDK"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/SupportSDK.framework/SupportSDK"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/SupportProvidersSDK.framework/SupportProvidersSDK"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/CommonUISDK.framework/CommonUISDK"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/HelpshiftX.framework/HelpshiftX"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/App.framework/App"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/Flutter.framework/Flutter"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/RecaptchaInterop.framework/RecaptchaInterop"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/Scid.framework/Scid"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/SnowplowTracker.framework/SnowplowTracker"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/cupertino_http.framework/cupertino_http"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/flutter_inappwebview_ios.framework/flutter_inappwebview_ios"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/path_provider_foundation.framework/path_provider_foundation"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/scid_plugin.framework/scid_plugin"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/sensors_plus.framework/sensors_plus"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/share_plus.framework/share_plus"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/shared_preferences_foundation.framework/shared_preferences_foundation"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/smart_auth.framework/smart_auth"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/snowplow_tracker.framework/snowplow_tracker"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/social_plugin.framework/social_plugin"
+      },
+      {
+        "command": 12,
+        "name": "@rpath/url_launcher_ios.framework/url_launcher_ios"
+      },
+      {
+        "command": 2147483672,
+        "name": "/System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices"
+      },
+      {
+        "command": 2147483672,
+        "name": "/System/Library/Frameworks/AdServices.framework/AdServices"
+      },
+      {
+        "command": 2147483672,
+        "name": "/System/Library/Frameworks/iAd.framework/iAd"
+      },
+      {
+        "command": 12,
+        "name": "/usr/lib/libicucore.A.dylib"
+      },
+      {
+        "command": 12,
+        "name": "/usr/lib/libsqlite3.dylib"
+      },
+      {
+        "command": 12,
+        "name": "/usr/lib/libobjc.A.dylib"
+      },
+      {
+        "command": 12,
+        "name": "/usr/lib/libc++.1.dylib"
+      },
+      {
+        "command": 12,
+        "name": "/usr/lib/libSystem.B.dylib"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/CFNetwork.framework/CFNetwork"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/CoreMedia.framework/CoreMedia"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/CoreVideo.framework/CoreVideo"
+      },
+      {
+        "command": 2147483672,
+        "name": "/System/Library/Frameworks/DeclaredAgeRange.framework/DeclaredAgeRange"
+      },
+      {
+        "command": 2147483672,
+        "name": "/System/Library/Frameworks/FileProvider.framework/FileProvider"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/MetricKit.framework/MetricKit"
+      },
+      {
+        "command": 12,
+        "name": "/System/Library/Frameworks/PDFKit.framework/PDFKit"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftAVFoundation.dylib"
+      },
+      {
+        "command": 12,
+        "name": "/usr/lib/swift/libswiftCore.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftCoreAudio.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftCoreFoundation.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftCoreImage.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftCoreLocation.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftCoreMIDI.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftCoreMedia.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftDarwin.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftDataDetection.dylib"
+      },
+      {
+        "command": 12,
+        "name": "/usr/lib/swift/libswiftDispatch.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftMetal.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftOSLog.dylib"
+      },
+      {
+        "command": 12,
+        "name": "/usr/lib/swift/libswiftObjectiveC.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftQuartzCore.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftSpatial.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftXPC.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftos.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/usr/lib/swift/libswiftsimd.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "@rpath/libswift_Concurrency.dylib"
+      },
+      {
+        "command": 12,
+        "name": "/usr/lib/swift/libswiftFoundation.dylib"
+      },
+      {
+        "command": 12,
+        "name": "/usr/lib/swift/libswiftCoreGraphics.dylib"
+      },
+      {
+        "command": 12,
+        "name": "/usr/lib/swift/libswiftNetwork.dylib"
+      },
+      {
+        "command": 12,
+        "name": "/usr/lib/swift/libswiftUIKit.dylib"
+      },
+      {
+        "command": 2147483672,
+        "name": "/System/Library/Frameworks/SwiftUI.framework/SwiftUI"
+      }
+    ],
+    "install_name": null,
+    "platform": 2,
+    "minimum_os_version": "14.0.0",
+    "encryption": [
+      {
+        "cryptoff": 16384,
+        "cryptsize": 16171008,
+        "cryptid": 0
+      }
+    ],
+    "segments": [
+      {
+        "name": "__PAGEZERO",
+        "vmaddr": 0,
+        "vmsize": 4294967296,
+        "fileoff": 0,
+        "filesize": 0
+      },
+      {
+        "name": "__TEXT",
+        "vmaddr": 4294967296,
+        "vmsize": 16203776,
+        "fileoff": 0,
+        "filesize": 16203776
+      },
+      {
+        "name": "__DATA_CONST",
+        "vmaddr": 4311171072,
+        "vmsize": 868352,
+        "fileoff": 16203776,
+        "filesize": 868352
+      },
+      {
+        "name": "__DATA",
+        "vmaddr": 4312039424,
+        "vmsize": 1130496,
+        "fileoff": 17072128,
+        "filesize": 589824
+      },
+      {
+        "name": "__J_W",
+        "vmaddr": 4313169920,
+        "vmsize": 32768,
+        "fileoff": 17661952,
+        "filesize": 32768
+      },
+      {
+        "name": "__RESTRICT",
+        "vmaddr": 4313202688,
+        "vmsize": 0,
+        "fileoff": 17694720,
+        "filesize": 0
+      },
+      {
+        "name": "__LINKEDIT",
+        "vmaddr": 4313202688,
+        "vmsize": 819200,
+        "fileoff": 17694720,
+        "filesize": 804832
+      }
+    ],
+    "sections": [
+      {
+        "name": "__text",
+        "segment": "__TEXT",
+        "address": 4294983680,
+        "size": 14183952,
+        "offset": 16384,
+        "flags": 2147484672
+      },
+      {
+        "name": "__stubs",
+        "segment": "__TEXT",
+        "address": 4309167632,
+        "size": 17424,
+        "offset": 14200336,
+        "flags": 2147484680
+      },
+      {
+        "name": "__objc_stubs",
+        "segment": "__TEXT",
+        "address": 4309185056,
+        "size": 173728,
+        "offset": 14217760,
+        "flags": 2147484672
+      },
+      {
+        "name": "__init_offsets",
+        "segment": "__TEXT",
+        "address": 4309358784,
+        "size": 8020,
+        "offset": 14391488,
+        "flags": 22
+      },
+      {
+        "name": "__objc_methlist",
+        "segment": "__TEXT",
+        "address": 4309366808,
+        "size": 135788,
+        "offset": 14399512,
+        "flags": 0
+      },
+      {
+        "name": "__objc_classname",
+        "segment": "__TEXT",
+        "address": 4309502608,
+        "size": 15089,
+        "offset": 14535312,
+        "flags": 2
+      },
+      {
+        "name": "__const",
+        "segment": "__TEXT",
+        "address": 4309517712,
+        "size": 301584,
+        "offset": 14550416,
+        "flags": 0
+      },
+      {
+        "name": "__constg_swiftt",
+        "segment": "__TEXT",
+        "address": 4309819296,
+        "size": 27852,
+        "offset": 14852000,
+        "flags": 0
+      },
+      {
+        "name": "__swift5_typeref",
+        "segment": "__TEXT",
+        "address": 4309847148,
+        "size": 20600,
+        "offset": 14879852,
+        "flags": 0
+      },
+      {
+        "name": "__swift5_fieldmd",
+        "segment": "__TEXT",
+        "address": 4309867748,
+        "size": 20356,
+        "offset": 14900452,
+        "flags": 0
+      },
+      {
+        "name": "__swift5_types",
+        "segment": "__TEXT",
+        "address": 4309888104,
+        "size": 1420,
+        "offset": 14920808,
+        "flags": 0
+      },
+      {
+        "name": "__cstring",
+        "segment": "__TEXT",
+        "address": 4309889536,
+        "size": 791693,
+        "offset": 14922240,
+        "flags": 2
+      },
+      {
+        "name": "__objc_methname",
+        "segment": "__TEXT",
+        "address": 4310681232,
+        "size": 243051,
+        "offset": 15713936,
+        "flags": 2
+      },
+      {
+        "name": "__objc_methtype",
+        "segment": "__TEXT",
+        "address": 4310924288,
+        "size": 33384,
+        "offset": 15956992,
+        "flags": 2
+      },
+      {
+        "name": "__gcc_except_tab",
+        "segment": "__TEXT",
+        "address": 4310957672,
+        "size": 57728,
+        "offset": 15990376,
+        "flags": 0
+      },
+      {
+        "name": "__ustring",
+        "segment": "__TEXT",
+        "address": 4311015400,
+        "size": 284,
+        "offset": 16048104,
+        "flags": 0
+      },
+      {
+        "name": "__swift5_capture",
+        "segment": "__TEXT",
+        "address": 4311015684,
+        "size": 6332,
+        "offset": 16048388,
+        "flags": 0
+      },
+      {
+        "name": "__swift5_reflstr",
+        "segment": "__TEXT",
+        "address": 4311022016,
+        "size": 20665,
+        "offset": 16054720,
+        "flags": 0
+      },
+      {
+        "name": "__swift5_assocty",
+        "segment": "__TEXT",
+        "address": 4311042684,
+        "size": 3032,
+        "offset": 16075388,
+        "flags": 0
+      },
+      {
+        "name": "__swift5_proto",
+        "segment": "__TEXT",
+        "address": 4311045716,
+        "size": 1964,
+        "offset": 16078420,
+        "flags": 0
+      },
+      {
+        "name": "__swift5_builtin",
+        "segment": "__TEXT",
+        "address": 4311047680,
+        "size": 840,
+        "offset": 16080384,
+        "flags": 0
+      },
+      {
+        "name": "__swift5_protos",
+        "segment": "__TEXT",
+        "address": 4311048520,
+        "size": 288,
+        "offset": 16081224,
+        "flags": 0
+      },
+      {
+        "name": "__swift5_mpenum",
+        "segment": "__TEXT",
+        "address": 4311048808,
+        "size": 36,
+        "offset": 16081512,
+        "flags": 0
+      },
+      {
+        "name": "__swift_as_entry",
+        "segment": "__TEXT",
+        "address": 4311048844,
+        "size": 24,
+        "offset": 16081548,
+        "flags": 0
+      },
+      {
+        "name": "__swift_as_ret",
+        "segment": "__TEXT",
+        "address": 4311048868,
+        "size": 32,
+        "offset": 16081572,
+        "flags": 0
+      },
+      {
+        "name": "__unwind_info",
+        "segment": "__TEXT",
+        "address": 4311048900,
+        "size": 74336,
+        "offset": 16081604,
+        "flags": 0
+      },
+      {
+        "name": "__eh_frame",
+        "segment": "__TEXT",
+        "address": 4311123240,
+        "size": 22048,
+        "offset": 16155944,
+        "flags": 1744830475
+      },
+      {
+        "name": "__oslogstring",
+        "segment": "__TEXT",
+        "address": 4311154688,
+        "size": 194,
+        "offset": 16187392,
+        "flags": 2
+      },
+      {
+        "name": "__got",
+        "segment": "__DATA_CONST",
+        "address": 4311171072,
+        "size": 16792,
+        "offset": 16203776,
+        "flags": 6
+      },
+      {
+        "name": "__const",
+        "segment": "__DATA_CONST",
+        "address": 4311187864,
+        "size": 665472,
+        "offset": 16220568,
+        "flags": 0
+      },
+      {
+        "name": "__cfstring",
+        "segment": "__DATA_CONST",
+        "address": 4311853336,
+        "size": 173312,
+        "offset": 16886040,
+        "flags": 0
+      },
+      {
+        "name": "__objc_classlist",
+        "segment": "__DATA_CONST",
+        "address": 4312026648,
+        "size": 5912,
+        "offset": 17059352,
+        "flags": 268435456
+      },
+      {
+        "name": "__objc_nlclslist",
+        "segment": "__DATA_CONST",
+        "address": 4312032560,
+        "size": 88,
+        "offset": 17065264,
+        "flags": 268435456
+      },
+      {
+        "name": "__objc_catlist",
+        "segment": "__DATA_CONST",
+        "address": 4312032648,
+        "size": 104,
+        "offset": 17065352,
+        "flags": 268435456
+      },
+      {
+        "name": "__objc_nlcatlist",
+        "segment": "__DATA_CONST",
+        "address": 4312032752,
+        "size": 8,
+        "offset": 17065456,
+        "flags": 268435456
+      },
+      {
+        "name": "__objc_protolist",
+        "segment": "__DATA_CONST",
+        "address": 4312032760,
+        "size": 1176,
+        "offset": 17065464,
+        "flags": 0
+      },
+      {
+        "name": "__objc_imageinfo",
+        "segment": "__DATA_CONST",
+        "address": 4312033936,
+        "size": 8,
+        "offset": 17066640,
+        "flags": 0
+      },
+      {
+        "name": "__objc_intobj",
+        "segment": "__DATA_CONST",
+        "address": 4312033944,
+        "size": 48,
+        "offset": 17066648,
+        "flags": 0
+      },
+      {
+        "name": "__objc_arraydata",
+        "segment": "__DATA_CONST",
+        "address": 4312033992,
+        "size": 104,
+        "offset": 17066696,
+        "flags": 0
+      },
+      {
+        "name": "__objc_arrayobj",
+        "segment": "__DATA_CONST",
+        "address": 4312034096,
+        "size": 24,
+        "offset": 17066800,
+        "flags": 0
+      },
+      {
+        "name": "__objc_dictobj",
+        "segment": "__DATA_CONST",
+        "address": 4312034120,
+        "size": 40,
+        "offset": 17066824,
+        "flags": 0
+      },
+      {
+        "name": "__objc_const",
+        "segment": "__DATA",
+        "address": 4312039424,
+        "size": 255648,
+        "offset": 17072128,
+        "flags": 0
+      },
+      {
+        "name": "__objc_selrefs",
+        "segment": "__DATA",
+        "address": 4312295072,
+        "size": 60248,
+        "offset": 17327776,
+        "flags": 268435461
+      },
+      {
+        "name": "__objc_protorefs",
+        "segment": "__DATA",
+        "address": 4312355320,
+        "size": 592,
+        "offset": 17388024,
+        "flags": 268435467
+      },
+      {
+        "name": "__objc_classrefs",
+        "segment": "__DATA",
+        "address": 4312355912,
+        "size": 5968,
+        "offset": 17388616,
+        "flags": 268435456
+      },
+      {
+        "name": "__objc_superrefs",
+        "segment": "__DATA",
+        "address": 4312361880,
+        "size": 2936,
+        "offset": 17394584,
+        "flags": 268435456
+      },
+      {
+        "name": "__objc_ivar",
+        "segment": "__DATA",
+        "address": 4312364816,
+        "size": 7088,
+        "offset": 17397520,
+        "flags": 0
+      },
+      {
+        "name": "__objc_data",
+        "segment": "__DATA",
+        "address": 4312371904,
+        "size": 88240,
+        "offset": 17404608,
+        "flags": 0
+      },
+      {
+        "name": "__data",
+        "segment": "__DATA",
+        "address": 4312460160,
+        "size": 164840,
+        "offset": 17492864,
+        "flags": 0
+      },
+      {
+        "name": "__swift_hooks",
+        "segment": "__DATA",
+        "address": 4312625000,
+        "size": 184,
+        "offset": 17657704,
+        "flags": 0
+      },
+      {
+        "name": "__swift51_hooks",
+        "segment": "__DATA",
+        "address": 4312625184,
+        "size": 184,
+        "offset": 17657888,
+        "flags": 0
+      },
+      {
+        "name": "__s_async_hook",
+        "segment": "__DATA",
+        "address": 4312625368,
+        "size": 400,
+        "offset": 17658072,
+        "flags": 0
+      },
+      {
+        "name": "__swift56_hooks",
+        "segment": "__DATA",
+        "address": 4312625768,
+        "size": 176,
+        "offset": 17658472,
+        "flags": 0
+      },
+      {
+        "name": "__thread_vars",
+        "segment": "__DATA",
+        "address": 4312625944,
+        "size": 2088,
+        "offset": 17658648,
+        "flags": 19
+      },
+      {
+        "name": "__thread_bss",
+        "segment": "__DATA",
+        "address": 4312628032,
+        "size": 55680,
+        "offset": 0,
+        "flags": 18
+      },
+      {
+        "name": "__common",
+        "segment": "__DATA",
+        "address": 4312683712,
+        "size": 272512,
+        "offset": 0,
+        "flags": 1
+      },
+      {
+        "name": "__bss",
+        "segment": "__DATA",
+        "address": 4312956224,
+        "size": 213072,
+        "offset": 0,
+        "flags": 1
+      },
+      {
+        "name": "__jw",
+        "segment": "__J_W",
+        "address": 4313169920,
+        "size": 21136,
+        "offset": 17661952,
+        "flags": 2147484672
+      },
+      {
+        "name": "__pull",
+        "segment": "__J_W",
+        "address": 4313191056,
+        "size": 24,
+        "offset": 17683088,
+        "flags": 2147484672
+      },
+      {
+        "name": "__spd",
+        "segment": "__J_W",
+        "address": 4313191088,
+        "size": 16,
+        "offset": 17683120,
+        "flags": 2147484672
+      },
+      {
+        "name": "__restrict",
+        "segment": "__RESTRICT",
+        "address": 4313202688,
+        "size": 0,
+        "offset": 17694720,
+        "flags": 0
+      }
+    ],
+    "code_signatures": [
+      {
+        "dataoff": 18021760,
+        "datasize": 477792
+      }
+    ],
+    "flags": 10551429,
+    "sdk_version": "26.5.0",
+    "first_file_data_offset": 16384,
+    "available_header_padding": 2296
+  },
+  "preflight": {
+    "load_command": "LC_LOAD_DYLIB",
+    "install_name": "@executable_path/Frameworks/SDKLaserCapture.framework/SDKLaserCapture",
+    "changed_byte_ranges": [
+      [
+        16,
+        24
+      ],
+      [
+        14088,
+        14184
+      ]
+    ],
+    "new_command_bytes": 96,
+    "first_file_data_offset": 16384,
+    "original_ncmds": 129,
+    "new_ncmds": 130,
+    "original_sizeofcmds": 14056,
+    "new_sizeofcmds": 14152,
+    "existing_code_signature_blobs": [
+      {
+        "dataoff": 18021760,
+        "datasize": 477792
+      }
+    ],
+    "existing_signatures_valid_after_change": false
+  },
+  "zip_members": 37205,
+  "zip_uncompressed_bytes": 1837661513
+}
