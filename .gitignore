@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+work/
+dist/
+*.ipa
+*.p12
+*.mobileprovision
+.DS_Store
